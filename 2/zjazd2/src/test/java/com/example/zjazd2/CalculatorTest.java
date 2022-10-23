@@ -89,14 +89,7 @@ class CalculatorTest {
     public void test10() {
         String result = Calculator.dzielenie(4, 0);
         assertEquals("Nie dzielimy przez zero", result);
-        System.out.println("Test9");
-    }
-
-    @Test
-    public void test11() {
-        String result = Calculator.dzielenie(0, 4);
-        assertNotEquals("Nie dzielimy przez zero", result);
-        System.out.println("Test9");
+        System.out.println("Test10");
     }
 
 }
